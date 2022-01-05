@@ -3,6 +3,26 @@ body{
     margin: 0;
 }
 
+p{
+    margin:0;
+}
+
+p, span, text{
+    font-family: "Roboto", sans-serif!important;
+}
+
+.gradient-background{
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(135deg, #191919, transparent);
+}
+
+.help-border{
+    /*width: 10%;*/
+}
+
 #main-page{
     height: auto;
     min-height: 100vh;
@@ -36,18 +56,17 @@ body{
 .border{
     height: 1px;
     width: 80%;
-    background: rgb(0,57,58);
+    background: #00393a;
     background: linear-gradient(
         90deg, 
-        rgba(0,57,58,0.7791491596638656) 0%, 
-        rgba(3,129,131,1) 50%, 
-        rgba(0,57,58,0.804359243697479) 100%
+        #00393ac7 0%, 
+        #038183 50%, 
+        #00393acd 100%
     );
 }
 
 .menu-item{
     color: white;
-    font-family: "Roboto", sans-serif;
     font-size: 13px;
     font-weight: 500;
     letter-spacing: 2px;
@@ -57,11 +76,11 @@ body{
     align-items: center;
     height: 20%;
     transition: color 0.5s ease-out;
+    cursor: pointer;
 }
 
 .menu-item>p{
     transition: color 0.5s ease-out;
-    cursor: pointer;
 }
 
 .menu-item:hover > p{
@@ -88,6 +107,7 @@ body{
 .networking-logo:nth-child(2){
     margin-top: 20px;
     filter: grayscale(100%);
+    margin-right: -3px;
 }
 
 
@@ -95,11 +115,181 @@ body{
     height: 100vh;
     width: 85%;;
     background-color: black;
-    overflow: auto;
+    position: absolute;
+    margin-left: 15%;
+    overflow-y: overlay;
+    overflow-x: hidden;
 }
+
+.main-text{
+    color: white;
+
+}
+
+#first-page{
+    display: flex;
+}
+
+.background{
+    position: absolute;
+    width: calc(100% - 15px);
+    height: 100vh;
+    margin-right: 15px;
+}
+
+#first-background{
+    top: 0;
+    right: 0;
+}
+
+#first-background>img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: -270px;
+    opacity: 45%;
+}
+
+#presentation{
+    width: 88%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bolder;
+    z-index: 1;
+}
+
+.presentation-line{
+    margin-left: 10%;
+}
+
+.presentation-line:nth-child(1){
+    margin-top: -20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.presentation-line:nth-child(2), .presentation-line:nth-child(3){
+    font-size: 100px;
+}
+
+.presentation-line:nth-child(2)>span:nth-child(1){
+    color: #16e0e3;
+}
+
+.presentation-line:nth-child(4){
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.presentation-line:nth-child(4)>span:nth-child(2){
+    font-weight: 700;
+    color: #16e0e3;
+}
+
+#presentation>.border-info{
+    border: 1px solid #666666;
+    width: 320px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-left: 10%;
+    margin-top: 30px;
+    color:#666666;
+    border-radius: 50px;
+}
+
+.autoscroll{
+    height: 100%;
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    z-index: 2;
+}
+
+.popping-scroll-button{
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 50px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin-bottom: 70px;
+    height: 215px;
+    width: 45px;
+    display: flex;
+    color: #038183;
+    font-size: 11px;
+    letter-spacing: 2px;
+    animation: move 0.7s infinite alternate 0.5s;
+}
+
+.popping-scroll-button>.scroll-text{
+    height: calc(100% - 60px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.autoscroll .circle{
+    display: flex;
+    height: 60px;
+    width: calc(100% - 2px);
+    border: 1px solid white;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
 
 #second-page{
     
+}
+
+#second-background{
+}
+
+.background-header{
+    height: 35%; 
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-size: 185px;
+    font-weight: 700;
+}
+
+.background-header .background-line{
+    position: relative;
+    height: 1px;
+    min-width: 270px;
+    background-color: #16e0e3;
+    left: 19%;
+    opacity: 50%;
+    top: -56px;
+}
+
+.background-title{
+    color: #038183;
+    opacity: 70%;
+    position: relative;
+    left: 19%;
+    
+}
+
+.margin-bottom-title{
+    margin-bottom: 50px;
 }
 
 #third-page{
@@ -119,4 +309,14 @@ body{
     height: 100vh;
     width: 100%;
     background-color: #191919;
+}
+
+
+@keyframes move {
+    0% {
+        margin-bottom: 70px;
+    }
+    100% {
+        margin-bottom: 110px;
+    }
 }
