@@ -8,7 +8,7 @@ p{
 }
 
 p, span, text{
-    font-family: "Roboto", sans-serif!important;
+    font-family: "Roboto", sans-serif;
 }
 
 .gradient-background{
@@ -271,30 +271,191 @@ p, span, text{
 }
 
 .background-header .background-line{
+    flex-grow: 6;
     position: relative;
-    height: 1px;
+    height: 2px;
     min-width: 270px;
     background-color: #16e0e3;
-    left: 19%;
-    opacity: 50%;
+    left: 10%;
+    opacity: 75%;
     top: -56px;
 }
 
-.background-title{
+.background-header .background-title{
+    flex-grow: 1;
     color: #038183;
-    opacity: 70%;
+    opacity: 15%;
     position: relative;
-    left: 19%;
-    
+    left: 10%;   
+}
+
+.background-body{
+    height: 40%;
+    width: 100%;
+}
+
+.background-footer{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    opacity: 50%;
+}
+
+*.background-footer span, *.background-footer p{
+    font-family: 'Poppins', sans-serif!important;
+    color: #038183; 
+    font-weight: 500;
+    font-size: 135px;
+    height: 160px;
+}
+
+.background-footer>span{
+    margin-right: 20px;
+}
+
+.background-footer>span>span{
+    position: relative;
+    font-size: 55px;
+    font-weight: 700;
+    top: -28px;
 }
 
 .margin-bottom-title{
     margin-bottom: 50px;
 }
 
+.slide{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.slide-header{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.slide-header span{
+    font-size: 105px;
+    font-weight: 500;
+    color: white;
+    margin-right: 90px;
+}
+
+.slide-body{
+    height: 40%;
+    width: 100%;
+    color: white;
+}
+
+.slide-body>div{
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+.slide-footer{
+    height: 25%;
+    width: 100%;
+}
+
 #third-page{
     
 }
+
+#third-background{
+    display: flex;
+}
+
+#third-background .margin-for-line{
+    height: 100%;
+    width: 10%;
+}
+
+#third-background .margin-for-line>div:nth-child(1){
+    height: 30%;
+    width: 100%;
+}
+
+#third-background .margin-for-line>div:nth-child(2){
+    height: 65%;
+    width: 100%;
+    border-right: 2px solid #16e0e3;
+    opacity: 75%;
+}
+
+#third-background .margin-for-line>div:nth-child(3){
+    height: 5%;
+    width: 100%;
+}
+
+#third-background .background-body{
+    height: 65%;
+    width: 100%;
+}
+
+#third-background>div:nth-child(2){
+    width:90%;
+}
+
+#third-background .background-title{
+    left: 0%;
+    width: 100%;
+    padding-left: 20px;
+}
+
+#third-page .slide .slide-body{
+    padding-top: 80px;
+    height: calc(65% - 80px);
+    width: 100%;
+}
+
+#exp{
+    margin-right: 5%;
+}
+
+.exp-container-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+}
+
+.exp-container{
+    height: 100%;
+    width: 50%;
+}
+
+.exp-borders{
+    display: flex;
+    border: 1.5px solid #16e0e3;
+    border-radius: 30px 30px;
+    height: 60%;
+    width: 90%;
+}
+
+.exp-topic{
+    height: 100%;
+    width: 20%;
+    border: 1px solid #16e0e3;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 #fourth-page{
     
