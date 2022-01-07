@@ -439,14 +439,14 @@ p, span, text{
 
 .exp-borders{
     display: flex;
-    border: 1.5px solid #16e0e3;
+    border: 1px solid #16e0e3;
     border-radius: 30px 30px;
     height: 60%;
     width: 90%;
 }
 
 .exp-topic{
-    height: 100%;
+    height: calc(100% - 2px);
     width: 20%;
     border: 1px solid #16e0e3;
     border-radius: 30px;
