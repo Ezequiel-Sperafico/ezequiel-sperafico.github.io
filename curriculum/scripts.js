@@ -1,6 +1,13 @@
 jQuery(document).ready(() => {
-    setListeners()
+    correctPointsSideLength()
+    setListeners();
 })
+
+function correctPointsSideLength(){
+    let sideLength = jQuery('.exp-circle-point')[0].offsetWidth;
+
+    jQuery('.exp-circle-point').css({height: `${sideLength}px`, width: `${sideLength}px`});
+}
 
 function setListeners(){
     jQuery('.popping-scroll-button').unbind('click').click(scrollDownClick)
@@ -14,7 +21,7 @@ function scrollDownClick(event){
         ['3', '#third-page'],
         ['4', '#fourth-page'],
         ['5', '#fifth-page']
-    ])
+    ]);
 
     const sectionToGo = jQuery(event.currentTarget).attr('go-to-section')
 

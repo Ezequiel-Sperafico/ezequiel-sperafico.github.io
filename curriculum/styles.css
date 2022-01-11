@@ -446,6 +446,20 @@ p, span, text{
     height: 70%;
 }
 
+.exp-points{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.exp-circle-point{
+    width: calc(16% - 6px);
+    background: #16e0e3;
+    margin: 0px 6px;
+    border-radius: 50%;
+}
+
 
 #fourth-page{
     
