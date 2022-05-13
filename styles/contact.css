@@ -1,0 +1,342 @@
+@media(min-width: 992px){
+
+    /***** $text-section ********/
+
+    #text-section{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 51px;
+    }
+
+    #text-two{
+        /*width: 64.69vw;*/
+        width: 71.04vw;
+    }
+
+    #title-section-two{
+        font: normal normal bold 2.34vw/61px Nunito;
+        letter-spacing: 0px;
+        color: #006AA5;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+    }
+
+    #text-section-two {
+        font: normal normal normal 1.3vw/30px Nunito;
+        letter-spacing: 0px;
+        color: #008DCB;
+    }
+
+    /***** $cadastro-section ******/
+
+    #cadastro-section{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #cadastro-section>div.cadastro-form{
+        width: 71.04vw;
+        margin-bottom: 16px;
+        display: flex;
+    }
+
+    div.cadastro-form>div{
+        width: 35.1vw;
+        margin-right: 0.83vw;
+    }
+
+    div.cadastro-form>div:last-child{
+        margin-right: 0!important;
+    }
+
+    div.cadastro-form>div:nth-child(1)>div:not(div:last-child){
+        margin-bottom: 16px;
+    }
+
+    #cadastro-section input:not([type="checkbox"]), #cadastro-section textarea {
+        width: 100%;
+        height: 56px;
+        border: none;
+        background-color: #F3F3F3;
+        padding: 26px;
+        font: normal normal 300 1.04vw/21px Nunito;
+        letter-spacing: 0px;
+    }
+
+    #cadastro-section textarea{
+        height:  272px;
+        width: 100%;
+        max-height: 272px;
+        max-width: 100%;
+    }
+
+    #cadastro-section input[type="checkbox"]{
+        width: 1.1vw;
+        height: 1.1vw;
+        margin-right: 7px;
+    }
+
+    .agree-and-send{
+        display: flex;
+        width: 71.04vw;
+    }
+
+    .agree{
+        width: 88.55vw;
+    }
+
+    .agree>div{
+        display: flex;
+        align-items: center;
+        margin-bottom: 16.5px;
+        font: normal normal normal 15px/20px Nunito;
+        letter-spacing: 1.5px;
+        color: #004E7A;
+    }
+
+    .button-agree-send{
+        width: 11.45vw;
+    }
+
+    .button-agree-send>div{
+        height: 56px; 
+        width: 11.45vw; 
+        background-color: #008DCB; 
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font: normal normal normal 0.73vw/18px Nunito;
+        letter-spacing: 5.6px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    /***** $newsletter *********/
+
+    #news-letter{
+        display: inline;
+        background: #FFFFFF;
+        width: 100%;
+        position: relative;
+    }
+
+    #news-letter *{
+        z-index: 1;
+    }
+    
+    #news-letter>div{
+        padding-bottom: 20px;
+    }
+    
+    #news-letter-signup{
+        display: flex;
+        width: 45.52%;
+        background-color: #FFFFFF;
+        margin-top: 43px;
+    }
+    
+    #news-letter-signup .detail{
+        width: 3.5vw;
+        background-color: #008DCB;
+    }
+    
+    #news-letter-signup .title{
+        margin: 0;
+        margin-left: 140px;
+        margin-bottom: 16px;
+        color: #008DCB;
+        font: normal normal bold 35px/120px Bitter;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+    
+    #news-letter-signup .sub-text{
+        margin-left: 140px;
+        margin-bottom: 23px;
+        font: normal normal bold 16px/18px Nunito;
+        color: #5B5B5B;
+    }
+    
+    #news-letter-signup .news-letter-form{
+        display: inline;
+    }
+    
+    #news-letter-signup .news-letter-input{
+        margin-bottom: 12px;
+        height: 51px;
+        width: 100%
+    }
+    
+    #news-letter-signup .news-letter-input input{
+        margin-left: 140px;
+        margin-right: 59px;
+        height: 100%;
+        width: calc(100% - 141px);
+        border: none;
+        background-color: #f3f3f3;
+        padding: 15px;
+    }
+    
+    #news-letter-signup .send{
+        display: flex;
+        width: 100%;
+        height: 51px;
+    }
+    
+    #news-letter-signup .perm-message{
+        align-items: center;
+        display: flex;
+        height: 100%;
+        width: 100%
+    }
+    
+    #news-letter-signup .perm-message input{
+        margin: 0;
+        margin-left: 150px;
+        width: 30px;
+        height: 31px;
+        border: 2px solid #008dcb;
+    }
+
+    #sign-up{
+        height: 51px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    #sign-up input{
+        background: #ED8036 0% 0% no-repeat padding-box;
+        font: normal normal normal 14px/18px Nunito;
+        color: #FFFFFF;
+        height: 100%;
+        letter-spacing: 5.6px;
+        text-align: center;
+        border: none;
+        margin-left: 63px;
+        width: 13.54vw;
+    }
+    
+    #news-letter .news-letter-banner{
+        background-color: #004E7A;
+        width: 100%;
+        height: 613px;
+        display: flex;
+        position: relative;
+    }
+    
+    .background-grafism{
+        width: 52.5vw;
+        position: absolute;
+        top: -12vw;
+        right: -104vw;
+        z-index:0!important;    
+        max-width: 1094px;
+        min-width: 500px;
+
+    }
+
+    .text-banner{
+        margin-left: 243px;
+        margin-top: 109px;
+    }
+    
+    .text-banner .title{
+        width: 29vw;
+        font: normal normal normal 3.75vw/74px Nunito;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+    }
+    
+    .text-banner .text{
+        width: 25.5vw;
+        font: normal normal normal 0.8vw/30px Poppins;
+        color: #FFFFFF;
+        margin-top: 10px;
+    }
+    
+    .image-banner{
+        display: flex;
+        margin-left: 243px;
+        margin-top: 60px;
+    }
+    
+    .image-banner div{
+        width: 9.3vw;
+        margin-right: 27px;
+    }
+    
+    .image-banner img{
+        width: 100%;
+    }
+    
+    .news-letter-banner  .banner {
+        width: 57vw;
+        max-width: 1094px;
+        min-width: 500px;
+        position: absolute;
+        right: -50px;
+        top: -15%;
+    }
+    
+    .news-letter-banner img{
+        width: 100%;
+    }
+
+    /***** $footer ******/
+
+    #footer{
+        margin-bottom: 98px;
+        border: none;
+        height: 452px!important;
+    }
+
+    .social-media-icons{
+        display: flex;
+        justify-content: end;
+        margin-top: 26px;
+        margin-bottom: 90px;
+    }
+
+    .social-media-icons img{
+        width: 1.944vw;
+        height: 1.944vw;
+        margin-left: 2.12vw;
+    }
+
+    .company-location{
+        width: 55vw;
+    }
+
+    .company-location iframe{
+        max-width: 42.3vw; 
+        margin-left: 14.27vw;
+        height: 452px;
+    }
+
+    .company-legal-info div{
+        margin-left: 0px!important;
+        margin-right: 14.27vw!important;
+        margin-bottom: 5px;
+        text-align: right!important;
+        text-align: right;
+        font: normal normal normal 1.3vw/25px Nunito;
+        letter-spacing: 0px;
+        color: #004E7A;
+    }
+
+    #footer>.company-legal-info>.highlight{
+        font: normal normal bold 1.82vw/25px Nunito!important;
+        letter-spacing: 0px;
+        color: #008DCB;
+        margin-top:95px;
+        margin-bottom: 10px;
+    }
+}

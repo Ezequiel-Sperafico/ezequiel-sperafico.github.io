@@ -1,0 +1,596 @@
+@media (min-width: 992px){
+    /**** $title-section ********/
+
+    #title-section{
+        /*height: 325px;*/
+        width: 100%;
+        /*background-image: url('../assets/industry_background.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;*/
+        background-color: blueviolet;
+        display: flex;
+    }
+    
+    #title-section img.background-img{
+        width: 100%;
+        height: auto;
+        position: absolute;
+    }
+    
+    #title-section #design-box{
+        width: 70%;
+        z-index: 1;
+    }
+    
+    #title-section #title-text {
+        z-index: 1;
+        width: 30%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    
+    #title-text span {
+        font: normal normal bold 60px/120px Bitter;
+        color: #FFFFFF;
+        margin-bottom: 36px;
+        margin-right: 14.48vw;
+        height: 81px;
+    }
+    
+    #title-section .box-detail {
+        height: 36px;
+        width: 398px;
+        margin-left: 140px;
+        z-index: 1;
+    }
+    
+    #title-section .box-detail-top{
+        background-color: #008DCB;
+    }
+    
+    #title-section .box-detail-bottom{
+        background-color: #004E7A;
+    }
+
+    /******* $little-text *********/
+
+    #little-text{
+        width: 100vw;
+        margin-top: 34px;
+        margin-bottom: 56px;
+    }
+
+    #little-text>div{
+        width: 33.23vw;
+        margin-left: 52.3vw;
+        text-align: right;
+    }
+
+    #little-text>div:first-child{
+        font: normal normal bold 0.83vw/18px Nunito;
+        letter-spacing: 0px;
+        color: #959595;
+        margin-left: 52.3vw;
+        margin-bottom: 16px;
+    }
+
+    #little-text>div:last-child{
+        font: normal normal 300 0.83vw/18px Nunito;
+        letter-spacing: 0px;
+        color: #959595;
+    }
+
+    /****** $clients-section ******/
+
+    #clients-section{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 145px;
+    }
+
+    #client-list{
+        width: 82.13vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .client-line{
+        width: 100%;
+        display: flex;
+    }
+
+    .client-line:nth-child(1){
+        margin-bottom: 75px;
+    }
+
+    .client-column{
+        width: 39vw;
+        display: flex;
+        position: relative;
+    }
+
+    .border-client{
+        margin-right: 4.1vw;
+    }
+
+    .box-detail-1{
+        height: 54px;
+        width: 6.82vw;
+        position: absolute;
+        top: 0;
+        left: 13.54vw;
+        background-color: #008DCB;
+    }
+
+    .box-detail-2{
+        height: 26px;
+        width: 5.78vw;
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        background-color: #004E7A;
+    }
+
+    .client-logo{
+        width: 16.4vw;
+        margin-right: 1.93vw;
+    }
+
+    .client-info{
+        width: 20.73vw;
+        align-self: end;
+    }
+
+    .client-info>div:nth-child(1){
+        font: normal normal normal 1.3vw/30px Nunito;
+        letter-spacing: 0px;
+        color: #008DCB;
+    }
+
+    .client-info>div:nth-child(2){
+        font: normal normal 300 0.83vw/18px Nunito;
+        letter-spacing: 0px;
+        color: #959595;
+    }
+
+    /****** $depoimentos-section ******/
+
+    #depoimentos-section{
+        width: 100vw;
+        margin-bottom: 127px;
+        background-color: #F3F3F3;
+        display: flex;
+    }
+
+    .depoimentos-standard-text{
+        width: calc(44.32vw - 41px );
+        padding-top: 123px;
+        padding-bottom: 156px;
+        border-right: 41px solid #008DCB;
+    }
+
+    .depoimentos-standard-text>div{
+        margin-left: 6.93vw;
+    }
+
+    .depoimentos-standard-text>div:nth-child(1){
+        font: normal normal bold 3.125vw/120px Bitter;
+        letter-spacing: 0px;
+        color: #008DCB;
+        max-height: 81px;
+        margin-bottom: 10px;
+    }
+
+    .depoimentos-standard-text>div:nth-child(2){
+        font: normal normal normal 2.6vw/55px Nunito;
+        letter-spacing: 0px;
+        color: #008DCB;
+        margin-bottom: 20px;
+    }
+
+    .depoimentos-standard-text>div:nth-child(3){
+        font: normal normal normal 0.83vw/18px Nunito;
+        letter-spacing: 0px;
+        color: #008DCB;
+        max-width: 22vw;
+    }
+
+    .depoimentos-standard-detail{
+        width: calc(7.86vw - 41px);
+        border-left: 41px solid #008DCB;
+    }
+
+    #depoimentos-list{
+        width: 46.82vw;
+        background-color: white;
+    }
+
+    .depoimento-element{
+        width: 100%;
+        display: flex;
+    }
+
+    .list-depoimentos{
+        width: 46.82vw;
+        display: flex;
+        overflow: auto;
+        margin-bottom: 132px;
+        -ms-overflow-style: none; /* for Internet Explorer, Edge */
+        scrollbar-width: none; /* for Firefox */
+    }
+
+    .list-depoimentos::-webkit-scrollbar {
+        display: none; /* for Chrome, Safari, and Opera */
+    }
+
+    .depoimento-element-img{
+        background-color: #008DCB;
+        margin-left: 5.26vw;
+        margin-top: 105px;
+    }
+
+    .depoimento-element-img img{
+        width: 18.23vw;
+        border-top: 23px solid #008DCB;
+        border-bottom: 23px solid #008DCB;
+        user-drag: none;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+
+    }
+
+    .depoimento-element-info{
+        margin-top: 163px;
+        margin-left: 3vw;
+    }
+
+    .depoimento-element-info{
+        -webkit-user-select: none; /* Safari */        
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+/Edge */
+        user-select: none; /* Standard */
+    }
+
+    .depoimento-element-title{
+        text-align: left;
+        font: normal normal bold 1.56vw/18px Nunito;
+        letter-spacing: 0px;
+        color: #008DCB;
+        margin-bottom: 19px;
+    }
+
+    .depoimento-element-text{
+        text-align: left;
+        font: normal normal bold 0.83vw/18px Nunito;
+        letter-spacing: 0px;
+        color: #008DCB;
+        margin-bottom: 10px;
+        width: 19.4vw;
+    }
+
+    .depoimento-element-subtext{
+        text-align: left;
+        font: normal normal 300 0.83vw/18px Nunito;
+        letter-spacing: 0px;
+        color: #008DCB;
+        max-width: 14vw;
+    }
+
+
+    #depoimentos-drag{
+        display: flex;
+        margin-left: 140px;
+        align-items: center;
+        margin-bottom: 37.5px;
+        cursor: grab;
+    }
+
+    #depoimentos-drag #depoimentos-buttons{
+        display: flex;
+        margin-right: 20px;
+    }
+
+    #depoimentos-drag #depoimentos-buttons img{
+        cursor: pointer;
+        user-drag: none;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+
+    #depoimentos-drag .detail-line{
+        height: 1px;
+        background-color: #ee5656;
+        width: 20px;
+        margin-right: 20px;
+    }
+
+    #depoimentos-drag .drag-text{
+        font: normal normal normal 14px/14px Nunito;
+        letter-spacing: 5.6px;
+        color: #000000;
+        margin-right: 20px;
+    }
+
+    /******* $news-letter ********/
+
+    #news-letter{
+        display: flex;
+        background: red;
+        width: 100%;
+        position: relative;
+    }
+    
+    #news-letter>div{
+        padding-bottom: 20px;
+    }
+    
+    #news-letter-signup{
+        display: flex;
+        width: 45.52%;
+        background-color: #FFFFFF;
+    }
+    
+    #news-letter .detail{
+        width: 3.5vw;
+        background-color: #008DCB;
+    }
+    
+    #news-letter-signup .title{
+        margin: 0;
+        margin-left: 76px;
+        margin-bottom: 16px;
+        color: #008DCB;
+        font: normal normal bold 35px/120px Bitter;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+    
+    #news-letter-signup .sub-text{
+        margin-left: 76px;
+        margin-bottom: 23px;
+        font: normal normal bold 16px/18px Nunito;
+        color: #5B5B5B;
+    }
+    
+    #news-letter-signup .news-letter-form{
+        display: inline;
+    }
+    
+    #news-letter-signup .news-letter-input{
+        margin-bottom: 12px;
+        height: 51px;
+        width: 100%
+    }
+    
+    #news-letter-signup .news-letter-input input{
+        margin-left: 76px;
+        margin-right: 59px;
+        height: 100%;
+        width: calc(100% - 134px);
+        border: none;
+        background-color: #f3f3f3;
+        padding: 15px;
+    }
+    
+    #news-letter-signup .send{
+        display: flex;
+        width: 100%;
+        height: 51px;
+    }
+    
+    #news-letter-signup .perm-message{
+        align-items: center;
+        display: flex;
+        height: 100%;
+        width: 100%
+    }
+    
+    #news-letter-signup .perm-message input{
+        margin: 0;
+        margin-left: 76px;
+        width: 30px;
+        height: 31px;
+        border: 2px solid #008dcb;
+    }
+    
+    #sign-up{
+        height: 51px;
+    }
+    
+    #sign-up input{
+        background: #ED8036 0% 0% no-repeat padding-box;
+        font: normal normal normal 14px/18px Nunito;
+        color: #FFFFFF;
+        height: 100%;
+        letter-spacing: 5.6px;
+        text-align: center;
+        border: none;
+        margin-left: 63px;
+        margin-right: 59px;
+    }
+    
+    #news-letter .news-letter-banner{
+        background-color: #008DCB;
+        width: 55.48%;
+        display: flex;
+        position: relative;
+    }
+    
+    .text-banner{
+        margin-left: 93px;
+        margin-top: 58.93px;
+    }
+    
+    .text-banner .title{
+        width: 20vw;
+        font: normal normal normal 2.34vw/53px Nunito;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+    }
+    
+    .text-banner .text{
+        width: 21vw;
+        font: normal normal normal 0.7vw/30px Poppins;
+        color: #FFFFFF;
+    }
+    
+    .image-banner{
+        display: flex;
+        margin-left: 93px;
+        margin-top: 27px;
+    }
+    
+    .image-banner div{
+        width: 7vw;
+        margin-right: 20;
+    }
+    
+    .image-banner img{
+        width: 100%;
+    }
+    
+    .news-letter-banner  .banner {
+        width: 30vw;
+        max-width: 556px;
+        min-width: 500px;
+        position: absolute;
+        right: -50px;
+        top: -15%;
+    }
+    
+    .news-letter-banner img{
+        width: 100%;
+    }
+
+    /******* $cadastro-section *****/
+
+    #text-section{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 51px;
+    }
+
+    #text-two{
+        /*width: 64.69vw;*/
+        width: 71.04vw;
+    }
+
+    #title-section-two{
+        font: normal normal bold 2.34vw/61px Nunito;
+        letter-spacing: 0px;
+        color: #006AA5;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+    }
+
+    #text-section-two {
+        font: normal normal normal 1.3vw/30px Nunito;
+        letter-spacing: 0px;
+        color: #008DCB;
+    }
+
+
+    #cadastro-section{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 115px;
+    }
+
+    #cadastro-section>div.cadastro-form{
+        width: 71.04vw;
+        margin-bottom: 16px;
+        display: flex;
+    }
+
+    div.cadastro-form>div{
+        width: 35.1vw;
+        margin-right: 0.83vw;
+    }
+
+    div.cadastro-form>div:last-child{
+        margin-right: 0!important;
+    }
+
+    div.cadastro-form>div:nth-child(1)>div:not(div:last-child){
+        margin-bottom: 16px;
+    }
+
+    #cadastro-section input:not([type="checkbox"]), #cadastro-section textarea {
+        width: 100%;
+        height: 56px;
+        border: none;
+        background-color: #F3F3F3;
+        padding: 26px;
+        font: normal normal 300 1.04vw/21px Nunito;
+        letter-spacing: 0px;
+    }
+
+    #cadastro-section textarea{
+        height:  272px;
+        width: 100%;
+        max-height: 272px;
+        max-width: 100%;
+    }
+
+    #cadastro-section input[type="checkbox"]{
+        width: 1.1vw;
+        height: 1.1vw;
+        margin-right: 7px;
+    }
+
+    .agree-and-send{
+        display: flex;
+        width: 71.04vw;
+    }
+
+    .agree{
+        width: 88.55vw;
+    }
+
+    .agree>div{
+        display: flex;
+        align-items: center;
+        margin-bottom: 16.5px;
+        font: normal normal normal 15px/20px Nunito;
+        letter-spacing: 1.5px;
+        color: #004E7A;
+    }
+
+    .button-agree-send{
+        width: 11.45vw;
+    }
+
+    .button-agree-send>div{
+        height: 56px; 
+        width: 11.45vw; 
+        background-color: #008DCB; 
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font: normal normal normal 0.73vw/18px Nunito;
+        letter-spacing: 5.6px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+}
+
+

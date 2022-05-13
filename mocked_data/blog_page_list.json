@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "second_image": "./assets/blog_list_second_image.png",
+        "image": "./assets/blog_list_image.png",
+        "title": "BLOG TITLTE",
+        "subtitle": "Subtitle",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est. ed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam"
+    },     {
+        "id": 2,
+        "second_image": "./assets/blog_list_second_image.png",
+        "image": "./assets/blog_list_image.png",
+        "title": "BLOG TITLTE",
+        "subtitle": "Subtitle",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est. ed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam"
+    },     {
+        "id": 3,
+        "second_image": "./assets/blog_list_second_image.png",
+        "image": "./assets/blog_list_image.png",
+        "title": "BLOG TITLTE",
+        "subtitle": "Subtitle",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est. ed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam"
+    },     {
+        "id": 4,
+        "second_image": "./assets/blog_list_second_image.png",
+        "image": "./assets/blog_list_image.png",
+        "title": "BLOG TITLTE",
+        "subtitle": "Subtitle",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est. ed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam"
+    },     {
+        "id": 5,
+        "second_image": "./assets/blog_list_second_image.png",
+        "image": "./assets/blog_list_image.png",
+        "title": "BLOG TITLTE - 2",
+        "subtitle": "Subtitle",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est. ed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam"
+    },     {
+        "id": 6,
+        "second_image": "./assets/blog_list_second_image.png",
+        "image": "./assets/blog_list_image.png",
+        "title": "BLOG TITLTE - 2",
+        "subtitle": "Subtitle",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est. ed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam"
+    },     {
+        "id": 7,
+        "second_image": "./assets/blog_list_second_image.png",
+        "image": "./assets/blog_list_image.png",
+        "title": "BLOG TITLTE - 2",
+        "subtitle": "Subtitle",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est. ed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam"
+    },     {
+        "id": 8,
+        "second_image": "./assets/blog_list_second_image.png",
+        "image": "./assets/blog_list_image.png",
+        "title": "BLOG TITLTE - 2",
+        "subtitle": "Subtitle",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est. ed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam"
+    }
+]

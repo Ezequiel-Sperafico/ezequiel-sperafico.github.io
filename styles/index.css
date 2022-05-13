@@ -1,0 +1,784 @@
+/*@media (min-width: 992px){*/
+
+    /******* $main-banner ********/
+            /*@media (min-width: 992px){*/
+
+    /******* $main-banner ********/
+    #main-banner{
+        width: 100vw;
+        height: auto;
+        position: relative;
+        margin-bottom: 132px;
+        display: flex;
+        overflow-x: hidden;
+    }
+
+    #main-banner>div{
+        width: 100vw;
+        position: relative
+    }
+
+    #main-banner>div>img{
+        width: 100vw;
+        position: absolute;
+    }
+
+    .detail-number{
+        font: normal normal normal 1.1vw/27px Nunito;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        position: absolute;
+        right: 9.11vw;
+        bottom: 13%;
+        z-index: 10;
+
+    }
+
+    .detail-number>div{
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+    #main-banner .detail-box{
+        background-color: #008DCB;
+        height: 27px;
+        width: 38.2vw;
+        margin-left: 61.8vw;
+        right: 0;
+        bottom: 0;
+        position: relative;
+        z-index: 20;
+    }
+
+    .banner-index{
+        margin-top: 65px;
+        margin-left: 19.5vw;
+        position: relative;
+        z-index: 30;
+        color: rgb(106, 106, 106)!important;
+        height: 20px;
+    }
+
+    .banner-span {
+        position: relative;
+        z-index: 20;
+        height: calc(100% - 112px);
+        margin-left: 21.6vw;
+        width:  26vw;
+    }
+
+    .banner-title{
+        font: normal normal normal 3.125vw Bitter!important;
+        font-family: "Bitter", sans-serif!important;
+        color: #004E7A;
+    }
+
+    .banner-title>div:nth-child(1){
+        font-weight: bolder;
+        font-family: "Bitter", sans-serif!important;
+        color: #004E7A;
+    }
+
+    .banner-title>div:nth-child(2){
+        font-size: 5vw!important;
+        font-weight: normal;
+        font-family: "Bitter", sans-serif!important;
+    }
+
+    .banner-text{
+        font-size: 0.85vw;
+        max-width: 22vw;
+        margin-bottom: 20px
+    }
+
+    .banner-sub-text{
+        font-size: 0.8vw;
+        max-width: 19vw;
+        color: #008DCB;
+    }
+
+    .social-medias-banner{
+        position: relative;
+        z-index: 30;
+        margin-top: 13px;
+    }
+
+    .social-medias-banner img{
+        width: 1vw;
+        margin-right: 0.73vw;
+        position: relative;
+        z-index: 40;
+    }
+
+    /******** $project-section ********/
+
+    #project-section{
+        width: 100%;
+        display: flex;
+        margin-bottom: 8px;
+    }
+
+    .project-main{
+        width: 66vw;
+        position: relative;
+        display: flex;
+        max-height: 501px;
+    }
+
+    .project-main .back-box{
+        position: absolute;
+        width: 57vw;
+        background-color: #F3F3F3;
+        height: 100%
+    }
+
+    .project-main .detail{
+        width: 3vw;
+        height: 100%;
+        background-color: #ED8036;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .project-main .project-image{
+        width: 21vw;
+        margin-left: 140px;
+        transform: translateY(-85px);
+    }
+
+    .project-main .project-text{
+        max-width: 35.1vw;
+        z-index: 1;
+        margin-left: 54px;
+        color: #ED8036;
+    }
+
+    .project-text .title{
+        display: flex;
+        align-items: center;
+        margin-top: 121px;
+        margin-bottom: 30px;
+        height: 68px;
+        font: normal normal bold 2.6vw/184px Bitter;
+    }
+
+    #project-button{
+        width: 80%;
+        display: flex;
+        justify-content: end;
+        font: normal normal normal 16px/19px Nunito;
+        letter-spacing: 6.4px;
+        color: #FFFFFF
+    }
+
+    .project-little{
+        margin-left: 140px;
+    }
+
+
+    .clickable-title{
+        display: flex;
+        font: normal normal bold 2.1vw/110px Bitter;
+        color: #008DCB;
+        align-items: baseline;
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+    .clickable-image{
+        width: 13.6vw;
+        transform: translateX(0.16vw);
+        position: relative;
+    }
+
+    .clickable-image>div:nth-child(2){
+        width: 2.67vw; 
+        height: 2.55vw; 
+        background-color: #008DCB; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        position: absolute; 
+        right: 0; 
+        bottom: 0;
+    }
+
+    .clickable-image>div:nth-child(2)>img{
+        width: 33%;
+    }
+
+    .clickable-image>div, .clickable-image img {
+        width: 100%;
+    }
+
+    .clickable-text{
+        width: 19.2vw;
+        font: normal normal 300 0.83vw/18px Nunito;
+        letter-spacing: 0px;
+        color: #008DCB;
+        margin-top: 30px;
+    }
+
+
+    /********* $blog-section **********/
+
+    #blog-section{
+        width: 100%;
+        margin-bottom: 290px;
+    }
+
+    #blog-section .blog-title{
+        margin-left: 140px;
+        margin-bottom: 22px;
+    }
+
+    #blog-section .blog-title .title{
+        font: normal normal bold 1.82vw/120px Bitter;
+        letter-spacing: 0px;
+        color: #008DCB;
+    }
+
+    #blog-section .blog-title .subtitle{
+        font: normal normal normal 2.1vw/18px Nunito;
+        letter-spacing: 0px;
+        color: #5B5B5B;
+    }
+
+    #blog-section #blog-drag{
+        display: flex;
+        margin-left: 140px;
+        align-items: center;
+        margin-bottom: 37.5px;
+        cursor: grab;
+    }
+
+    #blog-drag #blog-buttons{
+        display: flex;
+        margin-right: 20px;
+    }
+
+    #blog-drag #blog-buttons img{
+        cursor: pointer;
+        user-drag: none;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+
+    #blog-drag .detail-line{
+        height: 1px;
+        background-color: #ee5656;
+        width: 20px;
+        margin-right: 20px;
+    }
+
+    #blog-drag .drag-text{
+        font: normal normal normal 14px/14px Nunito;
+        letter-spacing: 5.6px;
+        color: #000000;
+        margin-right: 20px;
+    }
+
+    #blog-list{
+        display: flex;
+        width: 100%;
+        overflow-x: hidden;
+        padding-left: 140px;
+        box-sizing: border-box;
+        margin-top: 30px;
+    }
+
+    #blog-list>div{
+        position: relative;
+        width: 674px;
+        margin-bottom: 48px;
+        margin-right: 16px;
+    }
+
+    #blog-list>div>div{
+        position: relative;;
+    }
+
+    .blog-list-image{
+        width: 674px;
+    }
+
+    .blog-list-image img{
+        user-drag: none;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+
+    #blog-list .detail-blog{
+        width: 212px;
+        height: 48px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #008DCB;
+        font: normal normal 600 16px/32px Nunito;
+        letter-spacing: 4.65px;
+        color: #FFFFFF;
+    }
+
+    #blog-list .detail-blog-2{
+        width: 55px;
+        height: 89px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #008DCB;
+        z-index: 1;
+        bottom: 0;
+        left: 0;
+    }
+
+
+    .blog-list-text{
+        width: 100%;
+    }
+
+    .blog-list-text .blog-list-title{
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+    .blog-title-detail{
+        width: 30px;
+        height: 30px;
+        background: #008DCB;
+        margin-right: 23px;
+    }
+
+    .list-title{
+        cursor: pointer;
+        font: normal normal normal 28px/63px Nunito;
+        letter-spacing: 0px;
+        color: #5B5B5B;
+    }
+
+    .blog-list-text .title-icons{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        width: 67.7%;
+    }
+
+    .blog-list-text .title-icons img{
+        width: 25px;
+        height: 25px;
+        margin-left: 23px;
+    }
+
+    #blog-list .list-text-1{
+        width: 100%;
+        font: normal normal bold 16px/18px Nunito;
+        letter-spacing: 0px;
+        color: #222222;
+        margin-top: 21px;
+    }
+
+    #blog-list .list-text-2{
+        max-width: 399px;
+        margin-top: 13px;
+        font: normal normal 300 16px/18px Nunito;
+        letter-spacing: 0px;
+        color: #222222;
+    }
+
+    .see-more{
+        width: 100%;
+        height: 49px;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 48px;
+    }
+
+    .see-more-box{
+        cursor: pointer;
+        width: 499px;
+        height: 100%;
+        background-color: #008DCB;
+        display: flex;
+        align-items: center;
+    }
+    
+
+    /******* $news-letter ********/
+
+    #news-letter{
+        display: inline;
+        background: #FFFFFF;
+        width: 100%;
+        position: relative;
+    }
+
+    #news-letter *{
+        z-index: 1;
+    }
+    
+    #news-letter>div{
+        padding-bottom: 20px;
+    }
+    
+    #news-letter-signup{
+        display: flex;
+        width: 45.52%;
+        background-color: #FFFFFF;
+        margin-top: 43px;
+    }
+    
+    #news-letter-signup .detail{
+        width: 3.5vw;
+        background-color: #008DCB;
+    }
+    
+    #news-letter-signup .title{
+        margin: 0;
+        margin-left: 140px;
+        margin-bottom: 16px;
+        color: #008DCB;
+        font: normal normal bold 35px/120px Bitter;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+    
+    #news-letter-signup .sub-text{
+        margin-left: 140px;
+        margin-bottom: 23px;
+        font: normal normal bold 16px/18px Nunito;
+        color: #5B5B5B;
+    }
+    
+    #news-letter-signup .news-letter-form{
+        display: inline;
+    }
+    
+    #news-letter-signup .news-letter-input{
+        margin-bottom: 12px;
+        height: 51px;
+        width: 100%
+    }
+    
+    #news-letter-signup .news-letter-input input{
+        margin-left: 140px;
+        margin-right: 59px;
+        height: 100%;
+        width: calc(100% - 141px);
+        border: none;
+        background-color: #f3f3f3;
+        padding: 15px;
+    }
+    
+    #news-letter-signup .send{
+        display: flex;
+        width: 100%;
+        height: 51px;
+    }
+    
+    #news-letter-signup .perm-message{
+        align-items: center;
+        display: flex;
+        height: 100%;
+        width: 100%
+    }
+    
+    #news-letter-signup .perm-message input{
+        margin: 0;
+        margin-left: 150px;
+        width: 30px;
+        height: 31px;
+        border: 2px solid #008dcb;
+    }
+
+    #sign-up{
+        height: 51px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    #sign-up input{
+        background: #ED8036 0% 0% no-repeat padding-box;
+        font: normal normal normal 14px/18px Nunito;
+        color: #FFFFFF;
+        height: 100%;
+        letter-spacing: 5.6px;
+        text-align: center;
+        border: none;
+        margin-left: 63px;
+        width: 13.54vw;
+    }
+    
+    #news-letter .news-letter-banner{
+        background-color: #004E7A;
+        width: 100%;
+        height: 613px;
+        display: flex;
+        position: relative;
+    }
+    
+    .background-grafism{
+        width: 52.5vw;
+        position: absolute;
+        top: -12vw;
+        right: -104vw;
+        z-index:0!important;    
+        max-width: 1094px;
+        min-width: 500px;
+
+    }
+
+    .text-banner{
+        margin-left: 243px;
+        margin-top: 109px;
+    }
+    
+    .text-banner .title{
+        width: 29vw;
+        font: normal normal normal 3.75vw/74px Nunito;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+    }
+    
+    .text-banner .text{
+        width: 25.5vw;
+        font: normal normal normal 0.8vw/30px Poppins;
+        color: #FFFFFF;
+        margin-top: 10px;
+    }
+    
+    .image-banner{
+        display: flex;
+        margin-left: 243px;
+        margin-top: 60px;
+    }
+    
+    .image-banner div{
+        width: 9.3vw;
+        margin-right: 27px;
+    }
+    
+    .image-banner img{
+        width: 100%;
+    }
+    
+    .news-letter-banner  .banner {
+        width: 57vw;
+        max-width: 1094px;
+        min-width: 500px;
+        position: absolute;
+        right: -50px;
+        top: -15%;
+    }
+    
+    .news-letter-banner img{
+        width: 100%;
+    }
+
+    /**** footer ****/
+
+    #footer{
+        display: flex;
+        position: relative;
+    }
+
+    #footer .logo{
+        position: absolute;
+        top: -320px;
+        right: 140px;
+    }
+
+    #footer .logo img{
+        width: 13.54vw;   
+    }
+
+    .active{
+        color: #ED8036;
+    }
+/*}*/
+
+
+
+@media (max-width: 992px) {
+
+    #project-section {
+        display: inline!important;
+    }
+
+    .project-main {
+        width: 100vw;
+    }
+
+    .project-little{
+        display: flex!important;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .clickable-segment:nth-child(1){
+        margin-right: 85px!important;
+    }
+
+    .clickable-image {
+        width: 29vw!important;
+    }
+
+    .clickable-text {
+        width: 30vw!important;
+        font: normal normal 300 20px/18px Nunito!important;
+        letter-spacing: 0px!important;
+        color: #008DCB!important;
+        margin-top: 30px!important;
+    }
+
+    .project-main .back-box {
+        width: 80vw!important;
+    }
+
+    .project-main .project-image {
+        width: 31vw!important;
+        margin: 0 auto!important;
+        transform: translateY(-85px)!important;
+    }
+
+    .project-main .project-text {
+        margin: 0 auto!important;
+        max-width: 45vw!important;
+    }
+
+    .project-text .title {
+        font: normal normal bold 50px/184px Bitter!important;
+    }
+
+    .project-text>div:nth-child(2){
+        font: normal normal bold 20px/18px Nunito!important;
+    }
+
+    .project-text>div:nth-child(3){
+        font: normal normal normal 20px/18px Nunito!important;
+    }
+
+
+    #blog-section .blog-title, #blog-drag {
+        margin-left: 50px!important;
+    }
+
+    #blog-list {
+        padding-left: 50px!important;
+    }
+
+    #blog-list .list-text-1 {
+        font: normal normal bold 12px/18px Nunito!important;
+    }
+
+    #blog-list .list-text-2 {
+        font: normal normal 300 12px/18px Nunito!important;
+    }
+
+    #blog-section .blog-title .title {
+        font: normal normal bold 35px/120px Bitter;
+    }
+
+    #blog-section .blog-title .subtitle {
+        font: normal normal normal 40px/18px Nunito;
+        letter-spacing: 0px;
+        color: #5B5B5B;
+    }
+
+    #news-letter .news-letter-banner {
+        height: 380px;
+    }
+
+    .text-banner .title {
+        width: 40vw!important;
+        font: normal normal normal 50px/74px Nunito!important;
+    }
+
+    .text-banner .text {
+        width: 40vw!important;
+        font: normal normal normal 15px/30px Poppins!important;
+    }
+
+    .text-banner {
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+
+    .see-more {
+        height: 70px!important;
+    }
+
+    .see-more-box img{
+        width: 20px!important;
+        height: 20px!important;
+    }
+
+    .see-more-box>div:nth-child(2){
+        font: normal normal normal 20px/19px Nunito!important;
+    }
+
+    .background-grafism {
+        right: 1vw!important;
+    }
+
+    #news-letter-signup {
+        /* display: flex; */
+        width: 100%;
+        background-color: #FFFFFF;
+        margin-top: 43px;
+    }
+    .sub-text, #input-name-news-letter, #input-email-news-letter{
+        margin-left: 50px!important;
+        margin-right: 50px!important;
+    }
+
+    .perm-message>div:nth-child(1)>div{
+        margin-left: 50px!important;
+    }
+
+    #news-letter-signup .news-letter-input {
+        height: 85px!important;
+    }
+
+    #news-letter-signup .news-letter-input input {
+        width: calc(100% - 100px)!important;
+    }
+
+    .news-letter-banner .banner {
+        right: 0px!important;
+    }
+
+    .image-banner{
+        margin-left: 100px!important;
+        margin-top: 50px;
+    }
+
+    .image-banner>div{
+        width: 12.3vw;
+    }
+
+    #sign-up {
+        margin-right: 50px!important;
+        height: 65px!important;
+    }
+
+    #sign-up input {
+        font: normal normal normal 16px/18px Nunito!important;
+        width: 22.54vw!important;
+    }
+
+    #footer .logo {
+        position: initial!important;
+    }
+}

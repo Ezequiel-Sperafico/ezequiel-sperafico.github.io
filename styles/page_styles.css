@@ -1,0 +1,248 @@
+@media (max-width: 991px){
+
+    #logo{
+        margin-bottom: 25px;
+    }
+
+    #logo, #logo>img {
+        height: auto!important;
+        text-align: center;
+    }
+
+    #page-info {
+        height: auto!important;
+        display: inline!important;
+    }
+
+    #page-header {
+        height: auto!important;
+        padding-top: 0!important;
+        padding-left: 0!important;
+    }
+
+    #menu {
+        width: 100%!important;
+        padding-left: 0!important;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+        height: 0;
+        transition: ease all 2s;
+    }
+    #menu>a {
+        margin: 0!important;
+        margin-bottom: 12.5px!important;
+        margin-top: 12.5px!important;
+        font-size: 30px;
+        width: 40vw;
+        text-align: center;
+        padding: 10px;
+        border-bottom: 1px solid #dddddd;
+        opacity: 0;
+        transition: ease all 1s;
+    }
+
+
+    #expand-main-menu{
+        display: flex!important;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        z-index: 9;
+        padding: 10px;
+    }
+
+    #expand-main-menu>img{
+        width: 30px
+    }
+
+    #app-link{
+        display: none!important;
+    }
+
+}
+/*@media (min-width: 992px){*/
+
+    #page-header{
+        height: 122px;
+        width: 100%;
+        background-color: #FFFFFF;
+        padding-top: 33px;
+        padding-left: 140px;
+        box-sizing: border-box;
+    }
+
+    #page-info{
+        height: 50px;
+        display: flex;
+        width: 100%;
+    }
+
+    #logo{
+        height: 100%;
+    }
+
+    #logo>img{
+        width: 101px;
+        height: 100%;
+    }
+
+    #menu{
+        width: calc(100% - 258px);
+        padding-left: 9.10vw;
+        display: flex;
+        align-items: center;
+    }
+
+    #menu *{
+        font: normal normal normal 20px/27px "Nunito";
+        letter-spacing: 0px;
+        opacity: 1;
+    }
+
+    #menu>a{
+        margin-right: 27px;
+        color: #5D5D5D;
+    }
+
+    #expand-main-menu{
+        display: none;
+    }
+
+    #app-link{
+        width: 258px;
+        background:#008DCB 0% 0% no-repeat padding-box; 
+        height: 100%;
+        color: #FFFFFF;
+        box-sizing: inherit;
+        padding-left: 19px;
+        display: flex;
+        align-items: center;
+    }
+
+    #footer{
+        margin-top: 90.5px;
+        border-bottom: 63px solid #004E7A;
+        height: 281px;
+        display: flex;
+        background-color: #F3F3F3;
+    }
+
+    .company-legal-info{
+        width: 45vw;
+    }
+
+    .company-legal-info div{
+        margin-left: 140px; 
+        font: normal normal normal 1vw/25px Nunito;
+        letter-spacing: 0px;
+        color: #004E7A;
+    }
+
+    #footer .highlight{
+        font: normal normal bold 1vw/25px Nunito!important;
+    }
+
+    .company-location{
+        width:35vw;
+        height: 100%;
+    }
+
+    .company-location iframe{
+        height: 100%;
+        width: 100%;
+    }
+
+    #footer .logo{
+        height: 100%;
+        width:20vw;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    #footer .logo img{
+        width: 10vw;
+        margin-right: 32px;
+    }
+
+/*}*/
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+*{
+    font-family: "Nunito", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.body-section {
+    width: 100%
+}
+
+#main-page{
+    width: 100vw;
+    height: auto;
+    background: black;
+    background-color: #FFFFFF;
+}
+
+#page-body{
+    width: 100vw;
+}
+
+#image-visualization-dimmer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: gray;
+    opacity: 0.5;
+}
+
+#image-visualization{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image-holder{
+    width: 46vw;
+    position: relative;
+}
+
+.image-pass img{
+    width: 31px;
+    margin: 21px;
+    cursor: pointer;
+}
+
+#image-holder img#image-viewer{
+    width: 100%;
+}
+
+#retract-image-visualization{
+    position: absolute;
+    bottom: 21px;
+    right: 19px;
+    width: 37px;
+    cursor: pointer;
+}
