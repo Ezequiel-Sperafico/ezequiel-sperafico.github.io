@@ -3,6 +3,10 @@ jQuery(document).ready(() => {
     window.bannerActualPage = 0
     window.bannerTotalPage = jQuery('#main-banner>div').length
 
+    window.addEventListener('resize', () => {
+        jQuery('#main-banner').css('height', jQuery('#main-banner>div>img').css('height'))
+    })
+
     jQuery('#main-banner').css('height', jQuery('#main-banner>div>img').css('height'))
 
     setEventListenners()
@@ -78,7 +82,6 @@ function setEventListenners(){
     }, 6000)
 
     jQuery('#expand-main-menu')[0].addEventListener('touchend', (event) => {
-        debugger
         if(!jQuery(event.currentTarget).hasClass('opened')){
             jQuery('#expand-main-menu').addClass('opened')
             jQuery('#menu').css('height', '438px')

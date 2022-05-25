@@ -1,4 +1,4 @@
-@media(min-width: 992px){
+/*@media(min-width: 992px){*/
 
     #title-section{
         /*height: 325px;*/
@@ -209,4 +209,83 @@
         color: #FFFFFF;
         cursor: pointer;
     }
+/*}*/
+
+@media (max-width: 991px){
+    #page-body>div:nth-child(1)>div{
+        font: normal normal normal 50px/120px Bitter!important;
+    }
+
+    #title-section div:nth-child(1)>div {
+        font: normal normal normal 20px/30px Poppins!important;
+    }
+
+    
+    #design-box{
+        width: 350px!important;
+    }
+    
+    #text-one{
+        width: 88vw!important;
+    }
+
+    .title-section-one div:nth-child(1) {
+        font: normal normal 300 13px/18px Nunito!important;
+    }
+
+    .title-section-one div:nth-child(2) {
+        font: normal normal bold 35px/40px Bitter!important;
+    }
+
+    .title-section-one div:nth-child(3) {
+        max-width: max-content;
+    }
+
+    .text-section-one {
+        width: 88vw;
+    }
+
+    .text-section-one div {
+        width: 42.802vw;
+        font: normal normal 300 20px/30px Open Sans!important;
+
+    }
+
+    #text-two {
+        width: 88vw!important;
+    }
+
+    #cadastro-section>div {
+        width: 88vw!important;
+    }    
+
+    #cadastro-section input:not([type="checkbox"]) {
+        height: 85px!important;
+        font-size: 20px;
+    }
+
+
+    #cadastro-section input[type="checkbox"] {
+        width: 30px;
+        height: 30px;
+    }
+
+    .agree>div {
+        font: normal normal normal 15px/20px Nunito!important;
+    }
+
+    .agree {
+        width: 81.55vw!important;
+    }
+
+    .button-agree-send {
+        width: 18.45vw!important;
+    }
+
+    .button-agree-send>div {
+        height: 65px!important;
+        width: 18.45vw!important;
+        font: normal normal normal 16px/30px Nunito!important;
+    }
+
 }

@@ -1,4 +1,4 @@
-@media(min-width: 992px){
+/*@media(min-width: 992px){*/
 
     /***** $text-section ********/
 
@@ -339,4 +339,136 @@
         margin-top:95px;
         margin-bottom: 10px;
     }
+/*}*/
+
+@media (max-width: 991px) {
+    #page-body>div:nth-child(1)>div{
+        font: normal normal normal 50px/120px Bitter!important;
+    }
+
+    #title-section-two{
+        font: normal normal bold 45px/61px Nunito!important;
+    }
+
+    #text-section-two{
+        font: normal normal normal 25px/74px Nunito!important;
+    }
+
+    #cadastro-section input:not([type="checkbox"]), #cadastro-section textarea {
+        font: normal normal 300 20px/21px Nunito!important;
+    }
+
+    #cadastro-section input[type="checkbox"] {
+        width: 20px!important;
+        height: 20px!important;
+    }
+
+    .agree>div{
+        font: normal normal normal 18px/20px Nunito!important;
+    }
+
+    .button-agree-send {
+        width: 17.45vw;
+    }
+
+    .button-agree-send>div{
+        width: 17.45vw;
+        font: normal normal normal 16px/18px Nunito!important;
+    }
+
+    #news-letter .news-letter-banner {
+        height: 380px;
+    }
+
+    .text-banner .title {
+        width: 40vw!important;
+        font: normal normal normal 50px/74px Nunito!important;
+    }
+
+    .text-banner .text {
+        width: 40vw!important;
+        font: normal normal normal 15px/30px Poppins!important;
+    }
+
+    .text-banner {
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+
+    .see-more {
+        height: 70px!important;
+    }
+
+    .see-more-box img{
+        width: 20px!important;
+        height: 20px!important;
+    }
+
+    .see-more-box>div:nth-child(2){
+        font: normal normal normal 20px/19px Nunito!important;
+    }
+
+    .background-grafism {
+        right: 1vw!important;
+    }
+
+    #news-letter-signup {
+        /* display: flex; */
+        width: 50%;
+        background-color: #FFFFFF;
+        margin-top: 43px;
+    }
+    .sub-text, #input-name-news-letter, #input-email-news-letter, #news-letter-signup .title {
+        margin-left: 50px!important;
+        margin-right: 50px!important;
+    }
+
+    .perm-message>div:nth-child(1)>div{
+        margin-left: 50px!important;
+    }
+
+    #news-letter-signup .news-letter-input {
+        height: 85px!important;
+    }
+
+    #news-letter-signup .news-letter-input input {
+        width: calc(100% - 100px)!important;
+        font-size: 20px;
+    }
+
+    .news-letter-banner .banner {
+        right: 0px!important;
+    }
+
+    .image-banner{
+        margin-left: 100px!important;
+        margin-top: 50px;
+    }
+
+    .image-banner>div{
+        width: 12.3vw;
+    }
+
+    #sign-up {
+        margin-right: 50px!important;
+        height: 65px!important;
+    }
+
+    #sign-up input {
+        font: normal normal normal 16px/18px Nunito!important;
+        width: 22.54vw!important;
+    }
+
+    .send{
+        display: block!important;
+    }
+
+    #footer{
+        height: 350px!important
+    }
+
+    .company-location iframe {
+        height: 350px!important;
+    }
+
 }

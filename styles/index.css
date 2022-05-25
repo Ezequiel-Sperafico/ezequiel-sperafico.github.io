@@ -610,7 +610,7 @@
 
 
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
 
     #project-section {
         display: inline!important;
@@ -676,6 +676,7 @@
 
     #blog-list {
         padding-left: 50px!important;
+        overflow: auto;
     }
 
     #blog-list .list-text-1 {

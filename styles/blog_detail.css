@@ -1,4 +1,4 @@
-@media(min-width: 992px){
+/*@media(min-width: 992px){*/
     /********* banner-section *********/
 
     #banner-section{
@@ -405,5 +405,217 @@
     
     .news-letter-banner img{
         width: 100%;
+    }
+/*}*/
+
+@media (max-width: 991px){
+
+    #main-text  {
+        width: auto!important;
+    }
+
+    .text-title{
+        font-size: 45px!important;
+        width: 50vw!important;
+    }
+
+    .social-media{
+        font-size: 15px!important;
+    }
+
+    .social-media>img {
+        width: 20px!important;
+        height: 20px!important;
+    }
+
+    .back {
+        font: normal normal bold 17px/30px Open Sans!important;
+    }
+
+    .back img {
+        max-width: 30px!important;
+    }
+
+    .subtitle-text{
+        font-size: 20px!important;
+    }
+
+    .text{
+        font-size: 15px!important;
+    }
+
+    #banner-section .banner{
+        width: 98vw!important;
+    }
+
+    .banner-text{
+        width: 30%!important;
+    }
+
+    .banner-img {
+        width: 70%!important;
+    }
+
+    .b-title {
+        width: 94%!important;
+        font: normal normal normal 30px/25px Nunito!important;
+        margin-left: 5%!important;
+    }
+
+    .b-text{
+        width: 90%!important;
+        font: normal normal bold 16px/18px Nunito!important;
+        margin-left: 5%!important;
+        margin-bottom: 50px!important;
+
+    }
+
+    #banner-section .b-button{
+        width: 73%!important;
+    }
+
+    .b-button-text{
+        font: normal normal normal 16px/19px Nunito!important;
+    }
+
+    #blog-list-section{
+        width: calc(100% - 10vw)!important;
+        margin-left: 10vw!important;
+    }
+
+    #blog-list-section .blog-list{
+        display: block!important;
+    }
+
+    #recent-blog-link{
+        display: none;
+    }
+
+    #main-list{
+        width: 100%!important;
+    }
+
+    .list-first{
+        margin-bottom: 180px!important;
+    }
+
+    .list-first-text {
+        width: 63.69vw!important;
+    }
+    
+    .list-text-title{
+        font-size: 45px!important;
+    }
+
+    .list-text-subtitle{
+        font-size: 25px!important;
+    }
+
+    .list-text{
+        font-size: 16px!important;
+    }
+
+    .list-first-text .b-button{
+        width: 200px!important;
+        bottom: auto!important;
+        margin-top: 15px!important;
+    }
+
+    .list-first-text .b-button .b-button-text{
+        font-size: 16px!important;
+    }
+
+    #recent-list{
+        overflow: auto!important;
+        display: flex!important;
+        width: 100%!important;
+    }
+
+    .list-second{
+        margin-right: 30px!important;
+    }
+
+    .list-second-image{
+        width: 30vw!important;
+    }
+
+    .list-second-text{
+        width: 30vw!important;
+        font-size: 25px!important;
+    }
+
+    .date-button{
+        width: 30vw!important;
+    }
+
+    .date-button .date{
+        font-size: 20px!important;
+    }   
+
+    .date>img{
+        width: 20px!important;
+    }
+
+    .see-more-button{
+        width: 30vw!important;
+        display: flex;
+        justify-content: end;
+        margin-top: 7px;
+    }
+
+    .see-more-button>div{
+        position: initial!important;
+        font-size: 16px!important;
+    }
+
+    #news-letter {
+        display: inline!important;
+        background: transparent!important;
+    }   
+    
+
+    #news-letter .detail {
+        position: absolute!important;
+        height: 454.844px!important;
+    }
+
+    #news-letter-signup {
+        width: 100%!important;
+        height: 390!important;
+    }
+
+    .news-letter-banner{
+        width: 100%!important;
+        height: 305px!important;
+        padding-bottom: 30px!important;
+    }
+
+    .text-banner{
+        margin-top: 26px!important;
+    }
+
+    .text-banner .title{
+        width: 40vw;
+        font-size: 50px!important;
+    }
+
+    .text-banner .text{
+        width: 40vw!important;
+        font-size: 15px!important;
+    }
+
+    .news-letter-input {
+        height: 65px!important;
+        font-size: 20px;
+    }
+
+    #sign-up input{
+        width: 225px!important;
+        height: 60px;
+        font-size: 20px!important;
+    }
+
+    #news-letter-signup .sub-text {
+        font: normal normal bold 20px/18px Nunito!important;
     }
 }

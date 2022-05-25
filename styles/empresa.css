@@ -1,4 +1,4 @@
-@media (min-width: 992px){
+/*@media (min-width: 992px){*/
     #title-section{
         /*height: 325px;*/
         width: 100%;
@@ -406,13 +406,175 @@
         max-width: 556px;
         min-width: 500px;
         position: absolute;
-        right: -50px;
+        right: 0px;
         top: -15%;
     }
     
     .news-letter-banner img{
         width: 100%;
     }
+/*}*/
+
+@media (max-width: 992px){
+    #title-text span{
+        margin-bottom: 55px!important;
+    }
+
+    #title-section .box-detail {
+        height: 25px!important;
+    }
+
+    .info-title{
+        margin-left: 0px!important;
+        font: normal normal normal 45px/2.86vw Nunito!important;
+        margin-right: 50px!important;
+        margin-top: 40px!important;
+    }
+
+
+    .info-text:not(.info-title){
+        margin-right: 50px!important;
+        margin-left: 80px!important;
+        font-size: 15px!important;
+    }
+
+    .info-box-detail{
+        display: flex;
+        align-items: center;
+    }
+
+    .info-box-detail>*{
+        margin-top: 0!important;
+        margin-bottom: 0!important;
+        font-size: 25px;
+    }
+
+    .info-box-detail img {
+        height: 30px!important;
+        width: 30px!important;
+    }
+
+    .info-detail-text{
+        margin-top: 25px!important;
+        height: 65px!important;
+    }
+
+    .main-image{
+        margin-left: 60px!important;
+    }
+
+    .design-text-box{
+        width: 45vw!important;
+        height: 1280px!important;
+        left: 30px!important;
+    }
+
+    .design-text{
+        margin-left: 6vw!important;
+        font-size: 19px!important;
+        width: 45vw!important;
+
+    }
+
+    #first-text-body-section .design-text-box .design-text:last-child{
+        margin-bottom: 30px!important;
+    }
+
+    #image-carrosel{
+        margin-left: 60px!important;
+        overflow: auto!important;
+    }
+
+    #carrosel-scroll {
+        margin-left: 60px!important;
+    }
+
+    .image-demo{
+        width: 400px!important;
+    }
+
+    #second-text-body-section {
+        height: 1080px!important;
+    }
+
+
+    .vertical-rectangle {
+        width: 277px!important;
+        height: 380px!important;
+        right: 40px!important;
+        top: 100px!important;
+    }
+
+    #second-text-body-section .image {
+        width: 400px!important;
+        right: 130px!important;
+        height: 555px!important;
+        top: 260px!important;
+    }
+
+    .horizontal-rectangle {
+        width: 620px!important;
+        height: 265px!important;
+        top: 773px!important;
+        right: 294px!important;
+    }
+
+    .horizontal-rectangle p{
+        font-size: 21px!important;
+        margin-top: 50px!important;
+    }
+
+    .big-text {
+        right: 550px!important;
+        top: 168px!important;
+    }
+
+    #news-letter {
+        display: inline!important;
+        background: transparent!important;
+    }
+    
+
+    #news-letter .detail {
+        position: absolute!important;
+        height: 454.844px!important;
+    }
+
+    #news-letter-signup {
+        width: 100%!important;
+        height: 390!important;
+    }
+
+    .news-letter-banner{
+        width: 100%!important;
+        height: 305px!important;
+    }
+
+    .text-banner .title{
+        width: 40vw;
+        font-size: 50px!important;
+    }
+
+    .text-banner .text{
+        width: 40vw!important;
+        font-size: 15px!important;
+    }
+
+    .news-letter-input {
+        height: 65px!important;
+        font-size: 20px;
+    }
+
+    #sign-up input{
+        width: 225px!important;
+        height: 60px;
+        font-size: 20px!important;
+    }
+
+    #news-letter-signup .sub-text {
+        font: normal normal bold 20px/18px Nunito!important;
+    }
 }
+
 
 

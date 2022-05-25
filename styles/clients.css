@@ -1,4 +1,4 @@
-@media (min-width: 992px){
+/*@media (min-width: 992px){*/
     /**** $title-section ********/
 
     #title-section{
@@ -591,6 +591,176 @@
         color: #FFFFFF;
         cursor: pointer;
     }
+/*}*/
+
+@media (max-width: 991px){
+
+    #title-section{
+        background-color: transparent;
+    }
+
+    #little-text{
+        margin-top: 55px!important;
+    }
+
+    #little-text>div{
+        font-size: 15px!important;
+        width: 45vw!important;
+    }
+
+    .client-column{
+        width: 100%;
+        margin-right: 0!important;
+        margin-bottom: 70px!important;
+    }
+
+    .box-detail-1{
+        left: calc(35vw - 6.82vw)!important;
+    }
+
+    .client-logo{
+        width: 35vw!important;
+    }
+
+    .client-info{
+        width: 47vw!important;
+    }
+
+    .client-info>div:nth-child(1){
+        font: normal normal normal 25px/30px Nunito;
+    }
+
+    .client-info>div:nth-child(2){
+        font: normal normal 300 16px/18px Nunito!important;
+    }
+
+    #depoimentos-section{
+        display: block;
+    }
+
+    .depoimentos-standard-text{
+        width: calc(100vw - 41px);
+    }
+
+    .depoimentos-standard-text>div:nth-child(3){
+        font: normal normal normal 15px/18px Nunito!important;
+        max-width: max-content!important;
+    }
+
+    #depoimentos-list{
+        width: 100vw;
+    }
+
+    .list-depoimentos{
+        width: 100vw!important;
+        overflow: auto!important;
+    }
+
+    .depoimento-element-img{
+        margin-left: 15vw!important;
+    }
+
+    .depoimento-element-img img{
+        width: 30vw!important;
+    }
+
+    .depoimento-element-title{
+        font: normal normal bold 30px/18px Nunito!important;
+    }
+
+    .depoimento-element-text, .depoimento-element-subtext{
+        font-size: 16px!important;
+        width: auto!important;
+        max-width: max-content!important;
+    }
+
+    .depoimentos-standard-detail{
+        display: none!important;
+    }
+
+    #title-section-two{
+        font-size: 45px!important;
+    }
+
+    #text-section-two{
+        font-size: 25px!important;
+    }
+
+    #text-two, #cadastro-section>div.cadastro-form, .agree-and-send{
+        width: 85vw!important;
+    }
+
+    #cadastro-section input:not([type="checkbox"]), #cadastro-section textarea{
+        font-size: 20px!important;
+    }
+
+    .agree{
+        width: 85vw!important;
+    }
+
+    .button-agree-send{
+        width: 15vw!important;
+    }
+
+    .button-agree-send>div{
+        width: 15vw!important;
+        font-size: 16px!important;
+    }
+
+    .agree>div:nth-child(3){
+        font-size: 25px!important;
+    }
+
+    div.cadastro-form>div{
+        width: 42.5vw!important;
+    }
+
+    #news-letter {
+        display: inline!important;
+        background: transparent!important;
+    }   
+    
+
+    #news-letter .detail {
+        position: absolute!important;
+        height: 454.844px!important;
+    }
+
+    #news-letter-signup {
+        width: 100%!important;
+        height: 390!important;
+    }
+
+    .news-letter-banner{
+        width: 100%!important;
+        height: 305px!important;
+    }
+
+    .text-banner .title{
+        width: 40vw;
+        font-size: 50px!important;
+    }
+
+    .text-banner .text{
+        width: 40vw!important;
+        font-size: 15px!important;
+    }
+
+    .news-letter-input {
+        height: 65px!important;
+        font-size: 20px;
+    }
+
+    #sign-up input{
+        width: 225px!important;
+        height: 60px;
+        font-size: 20px!important;
+    }
+
+    #news-letter-signup .sub-text {
+        font: normal normal bold 20px/18px Nunito!important;
+    }
 }
+
 
 

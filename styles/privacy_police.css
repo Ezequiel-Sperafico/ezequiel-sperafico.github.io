@@ -1,4 +1,4 @@
-@media(min-width: 992px){
+/*@media(min-width: 992px){*/
     /******* $text-section ********/
 
     #text-section{
@@ -50,4 +50,23 @@
     }
 
     
+/*}*/
+
+@media(max-width: 991px){
+    #text-section{
+        width: 60vw!important;
+        font-size: 16px!important;
+    }
+
+    #back-button{
+        width: 60vw!important; 
+    }
+
+    #back-button img{
+        width: 30px!important;
+    }
+
+    #back-button span{
+        font-size: 16px!important;
+    }
 }

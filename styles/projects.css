@@ -1,4 +1,4 @@
-@media (min-width: 992px){
+/*@media (min-width: 992px){*/
     /**** $title-section ********/
 
     #title-section{
@@ -9,7 +9,6 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;*/
-        background-color: blueviolet;
         display: flex;
     }
     
@@ -309,6 +308,8 @@
         width: 0;
         padding: 0;
         animation: ease all 1s;
+        position: initial!important;
+        margin-top: 200px;
     }
 
     .project-element:not(.odd) .tenho-interesse-button{
@@ -470,6 +471,136 @@
     
     .news-letter-banner img{
         width: 100%;
+    }
+/*}*/
+
+@media (max-width: 991px){
+
+    #title-section .box-detail{
+        margin-left: 0!important;
+        width: auto!important;
+    }
+
+    #title-section .box-detail-top{
+        height: 105px!important;
+        padding-top: 35px!important;
+    }
+
+    #text-info>div{
+        width: 70vw!important;
+        margin-left: 12vw!important;
+    }
+
+    .big-text{
+        font: normal normal normal 50px/67px Nunito!important;
+        width: auto!important;
+    }
+
+    .med-text{
+        font: normal normal bold 13px/18px Nunito!important;
+    }
+
+    .small-text{
+        font: normal normal 300 13px/18px Nunito!important;
+        width: auto!important;
+    }
+
+    .project-element:not(.odd){
+        flex-direction: column;
+    }
+
+    .project-element.odd{
+        flex-direction: column-reverse;
+    }
+
+    .project-element.odd .project-text{
+        width: 100vw!important;
+        padding-right: 4.167vw;
+        padding-left: 0!important;
+        margin-bottom: 50px;
+    }
+
+    .project-element.odd .project-text div{
+        text-align: end;
+    }
+
+    .project-img{
+        align-self: flex-end;
+    }
+
+    .project-text{
+        width: 95vw;
+    }
+
+    .project-text-text>div{
+        max-width: 100%;
+    }
+
+    .project-text-subtext{
+        max-width: 100%;
+    }
+
+    .project-text-expand{
+        width: 32vw!important;
+        font: normal normal 300 16px/18px Nunito!important;
+    }
+
+    .img-listing{
+        overflow: auto!important;
+    }
+
+    .tenho-interesse-button{
+        right: 0!important;
+        left: calc(-14.18vw - 36px)!important;
+        font: normal normal normal 16px/19px Nunito!important;
+        position: initial!important;
+        margin-top: 150px!important;
+    }
+
+    #news-letter {
+        display: inline!important;
+        background: transparent!important;
+    }   
+    
+
+    #news-letter .detail {
+        position: absolute!important;
+        height: 454.844px!important;
+    }
+
+    #news-letter-signup {
+        width: 100%!important;
+        height: 390!important;
+    }
+
+    .news-letter-banner{
+        width: 100%!important;
+        height: 305px!important;
+    }
+
+    .text-banner .title{
+        width: 40vw;
+        font-size: 50px!important;
+    }
+
+    .text-banner .text{
+        width: 40vw!important;
+        font-size: 15px!important;
+    }
+
+    .news-letter-input {
+        height: 65px!important;
+        font-size: 20px;
+    }
+
+    #sign-up input{
+        width: 225px!important;
+        height: 60px;
+        font-size: 20px!important;
+    }
+
+    #news-letter-signup .sub-text {
+        font: normal normal bold 20px/18px Nunito!important;
     }
 }
 
